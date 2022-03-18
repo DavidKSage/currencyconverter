@@ -8,11 +8,12 @@ function Converter() {
 
     const [fromCur, setFromCur] = useState('USD');
     const [toCur, setToCur] = useState('GBP');
-    const [items, setItems] = useState (["USD"])
+    const [items, setItems] = useState([]);
 
     useEffect(() => {
         axios.get("https://free.currconv.com/api/v7/currencies?apiKey=6590b37170c9ab1d0a11")
-        .then(res => console.log(res.data))
+        .then(response => console.log(response.data.results))
+        // .then(response => setItems(response.data.results))
     }, []);
 
     return(
