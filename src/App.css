@@ -1,9 +1,13 @@
-/* * {
-  background-color: lavender;
+* {
+  background-color: ghostwhite;
   color: black;
-} */
+}
 
 .heading-text {
   font-size: 36px;
   font-weight: bold;
+}
+
+.center-text {
+  text-align: center;
 }
