@@ -22,12 +22,14 @@ function Converter() {
             <Row>
                 <Col md={5}>
                     <CurrencySelectFrom setFromCur={setFromCur} />
-                    <h2>1 {fromCur}</h2>
+                    <h2 className="center-text">1 {fromCur}</h2>
                 </Col>
-                <Col></Col>
+                <Col>
+                    <h2 style={{textAlign: "center"}}>=</h2>
+                </Col>
                 <Col md={5}>
                     <CurrencySelectTo setToCur={setToCur} />
-                    <h2>{toCur}</h2>
+                    <h2 className="center-text">{toCur}</h2>
                 </Col>
             </Row>
         </Container>
