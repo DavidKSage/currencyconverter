@@ -8,7 +8,7 @@ function CurrencySelectTo({ setToCur}) {
 
     function handleChange(e) {
         setSelectedOption(e.value);
-        console.log(e.value);
+        console.log(e.label);
         setToCur(e.value);
     }
 
