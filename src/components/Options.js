@@ -2,7 +2,6 @@ export const options = [
     {
       label: "Albania Lek",
       value: "ALL",
-      "symbol": "&#76;&#101;&#107;"
     },
     {
       label: "Afghanistan Afghani",
