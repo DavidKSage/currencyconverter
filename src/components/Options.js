@@ -2,20 +2,22 @@ export const options = [
     {
       value: "ALL",
       label: "Albania Lek",
+      symbol: "L"
     },
     {
       value: "AFN",
       label: "Afghanistan Afghani",
+      symbol:  "؋"
     },
     {
       label: "Argentina Peso",
       value: "ARS",
-      "symbol": "&#36;"
+      symbol: '$'
     },
     {
       label: "Aruba Guilder",
       value: "AWG",
-      "symbol": "&#402;"
+      symbol: 'ƒ.'
     },
     {
       label: "Australia Dollar",
@@ -540,7 +542,7 @@ export const options = [
     {
       label: "United States Dollar",
       value: "USD",
-      "symbol": "&#36;"
+      symbol: "$"
     },
     {
       label: "Uruguay Peso",
