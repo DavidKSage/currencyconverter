@@ -22,117 +22,117 @@ export const options = [
     {
       label: "Australia Dollar",
       value: "AUD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Azerbaijan New Manat",
       value: "AZN",
-      "symbol": "&#1084;&#1072;&#1085;"
+      "symbol": '₼'
     },
     {
       label: "Bahamas Dollar",
       value: "BSD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Barbados Dollar",
       value: "BBD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Belarus Ruble",
       value: "BYR",
-      "symbol": "&#112;&#46;"
+      "symbol": 'Br'
     },
     {
       label: "Belize Dollar",
       value: "BZD",
-      "symbol": "&#66;&#90;&#36;"
+      "symbol": 'BZ$'
     },
     {
       label: "Bermuda Dollar",
       value: "BMD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Bolivia Boliviano",
       value: "BOB",
-      "symbol": "&#36;&#98;"
+      "symbol": '$b'
     },
     {
       label: "Bosnia and Herzegovina Convertible Marka",
       value: "BAM",
-      "symbol": "&#75;&#77;"
+      "symbol": 'KM'
     },
     {
       label: "Botswana Pula",
       value: "BWP",
-      "symbol": "&#80;"
+      "symbol": 'P'
     },
     {
       label: "Bulgaria Lev",
       value: "BGN",
-      "symbol": "&#1083;&#1074;"
+      "symbol": 'лв'
     },
     {
       label: "Brazil Real",
       value: "BRL",
-      "symbol": "&#82;&#36;"
+      "symbol": 'R$'
     },
     {
       label: "Brunei Darussalam Dollar",
       value: "BND",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Cambodia Riel",
       value: "KHR",
-      "symbol": "&#6107;"
+      "symbol": '៛'
     },
     {
       label: "Canada Dollar",
       value: "CAD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Cayman Islands Dollar",
       value: "KYD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Chile Peso",
       value: "CLP",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "China Yuan Renminbi",
       value: "CNY",
-      "symbol": "&#165;"
+      "symbol": '¥'
     },
     {
       label: "Colombia Peso",
       value: "COP",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Costa Rica Colon",
       value: "CRC",
-      "symbol": "&#8353;"
+      "symbol": '₡'
     },
     {
       label: "Croatia Kuna",
       value: "HRK",
-      "symbol": "&#107;&#110;"
+      "symbol": 'kn'
     },
     {
       label: "Cuba Peso",
       value: "CUP",
-      "symbol": "&#8369;"
+      "symbol": '₱'
     },
     {
       label: "Czech Republic Koruna",
       value: "CZK",
-      "symbol": "&#75;&#269;"
+      "symbol": 'Kč'
     },
     {
       label: "Denmark Krone",
