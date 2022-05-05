@@ -1,4 +1,4 @@
-export const options = [
+export const currOptions = [
     {
       value: "ALL",
       label: "Albania Lek",

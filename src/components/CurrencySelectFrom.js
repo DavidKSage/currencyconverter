@@ -1,24 +1,28 @@
 import React, { useState } from 'react';
-import Select from 'react-select'
-import { options } from './Options';
+import { Form } from 'react-bootstrap';
+import { currOptions } from './Options';
 
 function CurrencySelectFrom({ setFromCur}) {
 
-    const [selectedOption, setSelectedOption] = useState(null)
+    const [selectedOption, setSelectedOption] = useState("USD")
 
     function handleChange(e) {
-        setSelectedOption(e.value);
-        console.log(e.label);
-        setFromCur(e.value);
+        setSelectedOption(e.target.value);
+        // console.log(e.target.label);
+        setFromCur(e.target.value);
     }
+
+    
 
     return(
         <div>
-            <Select
-                options={options} 
+            <Form.Select
                 value={selectedOption}
-                onChange={handleChange}
-            />
+                onChange={e => handleChange(e)}>
+                {currOptions.map(o => (
+                <option key={o.value} value={o.value}>{o.label}</option>
+            ))}
+            </Form.Select>
         </div>
     )
 }

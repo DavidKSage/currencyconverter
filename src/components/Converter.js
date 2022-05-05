@@ -3,15 +3,15 @@ import { Container, Row, Col } from 'react-bootstrap';
 import CurrencySelectTo from './CurrencySelectTo';
 import CurrencySelectFrom from './CurrencySelectFrom';
 import axios from 'axios';
-import { options } from './Options';
+import { currOptions } from './Options';
 
 function Converter() { 
 
     const [fromCur, setFromCur] = useState('USD');
     const [toCur, setToCur] = useState('GBP');
     const [rate, setRate] = useState();
-    let optFrom = options.find(option => option.value === fromCur);
-    let optTo = options.find(option => option.value === toCur);
+    let optFrom = currOptions.find(option => option.value === fromCur);
+    let optTo = currOptions.find(option => option.value === toCur);
    
 
     useEffect(() => {
