@@ -137,407 +137,382 @@ export const currOptions = [
     {
       label: "Denmark Krone",
       value: "DKK",
-      "symbol": "&#107;&#114;"
+      "symbol": 'kr'
     },
     {
       label: "Dominican Republic Peso",
       value: "DOP",
-      "symbol": "&#82;&#68;&#36;"
+      "symbol": 'RD$'
     },
     {
       label: "East Caribbean Dollar",
       value: "XCD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Egypt Pound",
       value: "EGP",
-      "symbol": "&#163;"
+      "symbol": '£'
     },
     {
       label: "El Salvador Colon",
       value: "SVC",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
-      label: "Estonia Kroon",
-      value: "EEK",
-      "symbol": "&#107;&#114;"
-    },
-    {
-      label: "Euro Member Countries",
+      label: "Euro",
       value: "EUR",
-      "symbol": "&#8364;"
+      "symbol": '€'
     },
     {
       label: "Falkland Islands (Malvinas) Pound",
       value: "FKP",
-      "symbol": "&#163;"
+      "symbol": '£'
     },
     {
       label: "Fiji Dollar",
       value: "FJD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Ghana Cedis",
       value: "GHC",
-      "symbol": "&#162;"
+      "symbol": '¢'
     },
     {
       label: "Gibraltar Pound",
       value: "GIP",
-      "symbol": "&#163;"
+      "symbol": '£'
     },
     {
       label: "Guatemala Quetzal",
       value: "GTQ",
-      "symbol": "&#81;"
+      "symbol": 'Q'
     },
     {
       label: "Guernsey Pound",
       value: "GGP",
-      "symbol": "&#163;"
+      "symbol": '£'
     },
     {
       label: "Guyana Dollar",
       value: "GYD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Honduras Lempira",
       value: "HNL",
-      "symbol": "&#76;"
+      "symbol": 'L'
     },
     {
       label: "Hong Kong Dollar",
       value: "HKD",
-      "symbol": "&#36;"
+      "symbol": 'L'
     },
     {
       label: "Hungary Forint",
       value: "HUF",
-      "symbol": "&#70;&#116;"
+      "symbol": 'Ft'
     },
     {
       label: "Iceland Krona",
       value: "ISK",
-      "symbol": "&#107;&#114;"
+      "symbol": 'kr'
     },
     {
       label: "India Rupee",
       value: "INR",
-      "symbol": null
+      "symbol": '₹'
     },
     {
       label: "Indonesia Rupiah",
       value: "IDR",
-      "symbol": "&#82;&#112;"
+      "symbol": 'Rp'
     },
     {
       label: "Iran Rial",
       value: "IRR",
-      "symbol": "&#65020;"
+      "symbol": '﷼'
     },
     {
       label: "Isle of Man Pound",
       value: "IMP",
-      "symbol": "&#163;"
+      "symbol": '£'
     },
     {
       label: "Israel Shekel",
       value: "ILS",
-      "symbol": "&#8362;"
+      "symbol": '₪'
     },
     {
       label: "Jamaica Dollar",
       value: "JMD",
-      "symbol": "&#74;&#36;"
+      "symbol": 'J$'
     },
     {
       label: "Japan Yen",
       value: "JPY",
-      "symbol": "&#165;"
+      "symbol": '¥'
     },
     {
       label: "Jersey Pound",
       value: "JEP",
-      "symbol": "&#163;"
+      "symbol": '£'
     },
     {
       label: "Kazakhstan Tenge",
       value: "KZT",
-      "symbol": "&#1083;&#1074;"
+      "symbol": 'лв'
     },
     {
       label: "Korea (North) Won",
       value: "KPW",
-      "symbol": "&#8361;"
+      "symbol": '₩'
     },
     {
       label: "Korea (South) Won",
       value: "KRW",
-      "symbol": "&#8361;"
+      "symbol": '₩'
     },
     {
       label: "Kyrgyzstan Som",
       value: "KGS",
-      "symbol": "&#1083;&#1074;"
+      "symbol": 'лв'
     },
     {
       label: "Laos Kip",
       value: "LAK",
-      "symbol": "&#8365;"
-    },
-    {
-      label: "Latvia Lat",
-      value: "LVL",
-      "symbol": "&#76;&#115;"
+      "symbol": '₭'
     },
     {
       label: "Lebanon Pound",
       value: "LBP",
-      "symbol": "&#163;"
+      "symbol": '£'
     },
     {
       label: "Liberia Dollar",
       value: "LRD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Lithuania Litas",
       value: "LTL",
-      "symbol": "&#76;&#116;"
+      "symbol": 'Lt'
     },
     {
       label: "Macedonia Denar",
       value: "MKD",
-      "symbol": "&#1076;&#1077;&#1085;"
+      "symbol": 'ден'
     },
     {
       label: "Malaysia Ringgit",
       value: "MYR",
-      "symbol": "&#82;&#77;"
+      "symbol": 'RM'
     },
     {
       label: "Mauritius Rupee",
       value: "MUR",
-      "symbol": "&#8360;"
+      "symbol": '₨'
     },
     {
       label: "Mexico Peso",
       value: "MXN",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Mongolia Tughrik",
       value: "MNT",
-      "symbol": "&#8366;"
+      "symbol": '₮'
     },
     {
       label: "Mozambique Metical",
       value: "MZN",
-      "symbol": "&#77;&#84;"
+      "symbol": 'MT'
     },
     {
       label: "Namibia Dollar",
       value: "NAD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Nepal Rupee",
       value: "NPR",
-      "symbol": "&#8360;"
+      "symbol": '₨'
     },
     {
       label: "Netherlands Antilles Guilder",
       value: "ANG",
-      "symbol": "&#402;"
+      "symbol": 'ƒ'
     },
     {
       label: "New Zealand Dollar",
       value: "NZD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Nicaragua Cordoba",
       value: "NIO",
-      "symbol": "&#67;&#36;"
+      "symbol": 'C$'
     },
     {
       label: "Nigeria Naira",
       value: "NGN",
-      "symbol": "&#8358;"
-    },
-    {
-      label: "Korea (North) Won",
-      value: "KPW",
-      "symbol": "&#8361;"
+      "symbol": '₦'
     },
     {
       label: "Norway Krone",
       value: "NOK",
-      "symbol": "&#107;&#114;"
+      "symbol": 'kr'
     },
     {
       label: "Oman Rial",
       value: "OMR",
-      "symbol": "&#65020;"
+      "symbol": '﷼'
     },
     {
       label: "Pakistan Rupee",
       value: "PKR",
-      "symbol": "&#8360;"
+      "symbol": '₨'
     },
     {
       label: "Panama Balboa",
       value: "PAB",
-      "symbol": "&#66;&#47;&#46;"
+      "symbol": 'B/.'
     },
     {
       label: "Paraguay Guarani",
       value: "PYG",
-      "symbol": "&#71;&#115;"
+      "symbol": 'Gs'
     },
     {
       label: "Peru Nuevo Sol",
       value: "PEN",
-      "symbol": "&#83;&#47;&#46;"
+      "symbol": 'S/.'
     },
     {
       label: "Philippines Peso",
       value: "PHP",
-      "symbol": "&#8369;"
+      "symbol": '₱'
     },
     {
       label: "Poland Zloty",
       value: "PLN",
-      "symbol": "&#122;&#322;"
+      "symbol": 'zł'
     },
     {
       label: "Qatar Riyal",
       value: "QAR",
-      "symbol": "&#65020;"
+      "symbol": '﷼'
     },
     {
       label: "Romania New Leu",
       value: "RON",
-      "symbol": "&#108;&#101;&#105;"
+      "symbol": 'lei'
     },
     {
       label: "Russia Ruble",
       value: "RUB",
-      "symbol": "&#1088;&#1091;&#1073;"
+      "symbol": '₽'
     },
     {
       label: "Saint Helena Pound",
       value: "SHP",
-      "symbol": "&#163;"
+      "symbol": '£'
     },
     {
       label: "Saudi Arabia Riyal",
       value: "SAR",
-      "symbol": "&#65020;"
+      "symbol": '﷼'
     },
     {
       label: "Serbia Dinar",
       value: "RSD",
-      "symbol": "&#1044;&#1080;&#1085;&#46;"
+      "symbol": 'Дин'
     },
     {
       label: "Seychelles Rupee",
       value: "SCR",
-      "symbol": "&#8360;"
+      "symbol": '₨'
     },
     {
       label: "Singapore Dollar",
       value: "SGD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Solomon Islands Dollar",
       value: "SBD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Somalia Shilling",
       value: "SOS",
-      "symbol": "&#83;"
+      "symbol": 'S'
     },
     {
       label: "South Africa Rand",
       value: "ZAR",
-      "symbol": "&#82;"
-    },
-    {
-      label: "Korea (South) Won",
-      value: "KRW",
-      "symbol": "&#8361;"
+      "symbol": 'R'
     },
     {
       label: "Sri Lanka Rupee",
       value: "LKR",
-      "symbol": "&#8360;"
+      "symbol": '₨'
     },
     {
       label: "Sweden Krona",
       value: "SEK",
-      "symbol": "&#107;&#114;"
+      "symbol": 'kr'
     },
     {
       label: "Switzerland Franc",
       value: "CHF",
-      "symbol": "&#67;&#72;&#70;"
+      "symbol": 'CHF'
     },
     {
       label: "Suriname Dollar",
       value: "SRD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Syria Pound",
       value: "SYP",
-      "symbol": "&#163;"
+      "symbol": '£'
     },
     {
       label: "Taiwan New Dollar",
       value: "TWD",
-      "symbol": "&#78;&#84;&#36;"
+      "symbol": 'NT$'
     },
     {
       label: "Thailand Baht",
       value: "THB",
-      "symbol": "&#3647;"
+      "symbol": '฿'
     },
     {
       label: "Trinidad and Tobago Dollar",
       value: "TTD",
-      "symbol": "&#84;&#84;&#36;"
+      "symbol": 'TT$'
     },
     {
       label: "Turkey Lira",
       value: "TRY",
-      "symbol": null
-    },
-    {
-      label: "Turkey Lira",
-      value: "TRL",
-      "symbol": "&#8356;"
+      "symbol": '₺'
     },
     {
       label: "Tuvalu Dollar",
       value: "TVD",
-      "symbol": "&#36;"
+      "symbol": '$'
     },
     {
       label: "Ukraine Hryvna",
       value: "UAH",
-      "symbol": "&#8372;"
+      "symbol": '₴'
     },
     {
       label: "United Kingdom Pound",
       value: "GBP",
-      "symbol": "&#163;"
+      "symbol": '£'
     },
     {
       label: "United States Dollar",
@@ -547,31 +522,31 @@ export const currOptions = [
     {
       label: "Uruguay Peso",
       value: "UYU",
-      "symbol": "&#36;&#85;"
+      "symbol": '$U'
     },
     {
       label: "Uzbekistan Som",
       value: "UZS",
-      "symbol": "&#1083;&#1074;"
+      "symbol": 'лв'
     },
     {
       label: "Venezuela Bolivar",
       value: "VEF",
-      "symbol": "&#66;&#115;"
+      "symbol": 'Bs'
     },
     {
       label: "Viet Nam Dong",
       value: "VND",
-      "symbol": "&#8363;"
+      "symbol": '₫'
     },
     {
       label: "Yemen Rial",
       value: "YER",
-      "symbol": "&#65020;"
+      "symbol": '﷼'
     },
     {
       label: "Zimbabwe Dollar",
       value: "ZWD",
-      "symbol": "&#90;&#36;"
+      "symbol": 'Z$'
     }
   ];
