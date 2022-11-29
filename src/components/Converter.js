@@ -15,7 +15,7 @@ function Converter() {
    
 
     useEffect(() => {
-        axios.get(`https://free.currconv.com/api/v7/convert?q=${fromCur}_${toCur}&compact=ultra&apiKey=6590b37170c9ab1d0a11`)
+        axios.get(`https://free.currconv.com/api/v7/convert?q=${fromCur}_${toCur}&compact=ultra&apiKey=42e4702ee31f104e1673`)
        .then(res => setRate(res.data[`${fromCur}_${toCur}`]))
        .catch(err => {
            alert("API is not responding", err.code);
