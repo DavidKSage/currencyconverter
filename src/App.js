@@ -9,7 +9,7 @@ function App() {
     <div>
       <Container className="border border-dark mt-3 mb-3 text-center p-3">
           <Row>
-          <span className="heading-text">React Currency Converter</span>
+          <span className="heading-text">Currency Converter</span>
           </Row>  
       </Container>
       <Converter />
