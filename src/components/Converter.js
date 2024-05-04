@@ -12,10 +12,11 @@ function Converter() {
     const [rate, setRate] = useState();
     let optFrom = currOptions.find(option => option.value === fromCur);
     let optTo = currOptions.find(option => option.value === toCur);
+    let apikey = 'fdb59b037e61adb15d86';
    
 
     useEffect(() => {
-        axios.get(`https://free.currconv.com/api/v7/convert?q=${fromCur}_${toCur}&compact=ultra&apiKey=f23efb8654588060bb70`)
+        axios.get(`https://free.currconv.com/api/v7/convert?q=${fromCur}_${toCur}&compact=ultra&apiKey=${apikey}`)
        .then(res => setRate(res.data[`${fromCur}_${toCur}`]))
        .catch(err => {
            alert("API is not responding", err.code);
